@@ -537,13 +537,16 @@ span {
     display: flex;
     justify-content: center; 
     color: white; 
-    font-size: 25px;
+    font-size: 21px;
   }
   .cont a {
     text-align:center;
-    font-size: large;
+    font-size: 14px;
     color: antiquewhite;
+    text-decoration: underline;
+    margin-left: 16%;
 }
 .cont a img {
-    size: 4px;
+    height: 6em;  
+    border-radius: 50%;
 }
