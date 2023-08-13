@@ -27,6 +27,8 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -373,12 +375,16 @@ span {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    
     background: var(--second-bg-color);
+    padding: 10px;
+    margin-top: -30%;
+    margin-bottom:0% ;
 }
 
 .footer-text p {
     font-size: 1.6rem;
+    
 }
 
 .footer-iconTop a {
@@ -435,6 +441,12 @@ span {
 }
 
 @media (max-width: 768px) {
+
+
+    .email-container a {
+        margin-left:18% ;
+        
+    }
     #menu-icon {
         display: block;
     }
@@ -503,6 +515,10 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     } 
+
+    .email-container a {
+        margin-left:18% ;
+    }
 }
 
 @media (max-width: 450px) {
@@ -513,9 +529,16 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+    .email a {
+        margin-left:18% ;
+    }
 }
 
 @media (max-width: 365px) {
+
+    .email a {
+        margin-left:18% ;
+    }
     .home-img img {
         width: 90vw;
     }
@@ -533,31 +556,23 @@ span {
         margin-top: 2rem;
     }
 }
-.email-container a { 
-    margin-top: 5%;
-    display: flex;
-    justify-content: center; 
-    color: white; 
-    font-size: 21px;
-  }
-  .cont a {
-    text-align:center;
-    font-size: 14px;
+.email{
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 6%;
+    margin-left: 17%;
+}
+.email img{
+    border-radius:4px;
+    height: 6em;
+
+}
+.email a {
     color: antiquewhite;
-    text-decoration: underline;
-    margin-left: 16%;
-    margin-bottom: 3%;
+    font-size: 15px;
 }
-.cont a img {
-    height: 6em;  
-    border-radius: 50%;
-}
-.logo {
-    margin-right: 10px;
-  }
-  
-  .logo img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 2px;
+.logo-container {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 7%;
   }
