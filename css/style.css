@@ -552,3 +552,12 @@ span {
     height: 6em;  
     border-radius: 50%;
 }
+.logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 2px;
+  }
