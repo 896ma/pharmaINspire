@@ -58,6 +58,7 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+
 }
 
 .navbar a {
@@ -231,7 +232,6 @@ span {
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
 }
-
 .services-container .services-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
@@ -339,7 +339,7 @@ span {
     text-align: center;
     
 }
-
+ 
 .contact form .input-box {
     display: flex;
     justify-content: space-between;
@@ -355,20 +355,20 @@ span {
     background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
-}
-
+} 
+ 
 .contact form .input-box input {
-    width: 49%;
+    width: 49%; 
 }
-
+ 
 .contact form textarea {
     resize: none;
-}
+} 
 
 .contact form .btn {
     margin-top: 2rem;
-    cursor: pointer;
-}
+    cursor: p inter;
+} 
 
 .footer {
     display: flex;
@@ -418,6 +418,10 @@ span {
     .header {
         padding: 2rem 3%;
     }
+    .logo-container {
+        padding: 2rem 3%;
+    }
+
 
     section {
         padding: 10rem 3% 2rem;
@@ -446,6 +450,9 @@ span {
     .email-container a {
         margin-left:18% ;
         
+    }
+    .logo-container {
+        padding: 2rem 3%;
     }
     #menu-icon {
         display: block;
@@ -515,6 +522,9 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     } 
+    .logo-container {
+        padding: 2rem 3%;
+    }
 
     .email-container a {
         margin-left:18% ;
@@ -524,6 +534,9 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    .logo-container {
+        padding: 2rem 3%;
     }
 
     .contact form .input-box input {
@@ -538,6 +551,9 @@ span {
 
     .email a {
         margin-left:18% ;
+    }
+    .logo-container {
+        padding: 2rem 3%;
     }
     .home-img img {
         width: 90vw;
@@ -571,8 +587,3 @@ span {
     color: antiquewhite;
     font-size: 15px;
 }
-.logo-container {
-    position: absolute;
-    margin-left: 8%;
-    margin-top: 7%;
-  }
